@@ -1,5 +1,5 @@
 locals {
-  source_image_version = "v1.0.0"
+  source_image_version = "1.0.0"
   source_image         = "docker.io/tombuildsstuff/web-arena-game:${local.source_image_version}"
   image_name           = "web-arena-game:${local.source_image_version}"
 }
